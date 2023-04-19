@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+      body {
+        background-color: lightskyblue;
+      }
+      .mid {
+        background-color: lightblue;
+      }
+    </style>
+  </head>
+  <body>
+    <p>MeterUSage <meter value="350" min="120" max="500"></meter></p>
+    <p>Lorem ipsum lorente <mark>morente</mark> glish ba</p>
+    <div class="mid">
+      <details open>
+        <summary>Details Section</summary>
+        <ul>
+          <li>Section A</li>
+          <li>Section B</li>
+        </ul>
+      </details>
+
+      <p>
+        My family and I visited The Epcot center this summer. The weather was
+        nice, and Epcot was amazing! I had a great summer together with my
+        family!
+      </p>
+
+      <aside>
+        <p>
+          The Epcot center is a theme park at Walt Disney World Resort featuring
+          exciting attractions, international pavilions, award-winning fireworks
+          and seasonal special events.
+        </p>
+      </aside>
+
+      <p>
+        My family and I visited The Epcot center this summer. The weather was
+        nice, and Epcot was amazing! I had a great summer together with my
+        family!
+      </p>
+    </div>
+
+    <footer>
+      <p>© Footer here</p>
+    </footer>
+
+    <form class="" action="site1.html" method="post" enctype="text/plain">
+      <table>
+        <tr>
+          <td><label for="">Name:</label></td>
+          <td>
+            <input type="text" name="Name" value="boran" autofocus /><small
+              >Min lenght 3</small
+            ><br />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="">Surname:</label></td>
+          <td>
+            <input type="text" name="Surname" value="gobel" required /><small
+              >Min lenght 3</small
+            >
+            <br />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="date">Date:</label></td>
+          <td>
+            <input id="month" list="date" type="text" /><small>Format: MM</small
+            ><br />
+          </td>
+          <datalist id="date">
+            <option value="January"></option>
+            <option value="February"></option>
+            <option value="March"></option>
+            <option value="April"></option>
+            <option value="May"></option>
+            <option value="June"></option>
+            <option value="July"></option>
+            <option value="August"></option>
+            <option value="September"></option>
+            <option value="October"></option>
+            <option value="November"></option>
+            <option value="December"></option>
+          </datalist>
+        </tr>
+        <tr>
+          <td><label for="">Email:</label></td>
+          <td>
+            <input
+              type="email"
+              name="Email"
+              value=""
+              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+              required
+            /><small>Format:random@domain.com</small><br />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="">Number:</label></td>
+          <td>
+            <input
+              type="tel"
+              name="Number"
+              value=""
+              pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}"
+            /><small>Format: 123-456-789</small><br />
+          </td>
+        </tr>
+      </table>
+      <input type="submit" name="" value="Send" />
+    </form>
+
+    <a href="index.html">Go Back</a>
+  </body>
+</html>
